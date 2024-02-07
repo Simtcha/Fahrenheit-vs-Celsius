@@ -1,0 +1,23 @@
+section {
+    display:block;
+    color:#282425;
+    background-color:#dce6e9;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin: 60px 420px;
+    padding: 60px;
+    border: 2px solid #2e869c ;  
+    border-radius: 20px;  
+}
+
+p {
+    display:block;
+    color:#282425;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
