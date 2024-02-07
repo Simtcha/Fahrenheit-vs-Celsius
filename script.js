@@ -8,16 +8,16 @@ function round(value, decimals) {
     return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
 }
 
-const stupneF = prompt("Zadej Fahrenheit stupně: ")
+const stupneF = Number(prompt("Zadej Fahrenheit stupně: "))
 stupneCelsia = round(((5 * (stupneF- 32))/9),1)
 
-document.body.innerHTML += "<section>" + stupneF + " °F je přesně " + stupneCelsia + " °C. " + "</section>"
+document.body.innerHTML += "<section>" + stupneF + " °F je přesně " + stupneCelsia + " °C " + "</section>"
 
 if (stupneCelsia > 25) {
-    document.body.innerHTML += "<p>"+ "Sakra teplo";
+    document.body.innerHTML += "<p>Sakra teplo :)<p>";
   } else if ((stupneCelsia < 25 && stupneCelsia  > 0)) {
-    document.body.innerHTML += "<p>"+ "To se dá";
+    document.body.innerHTML += "<p>To se dá :)</p>";
   } else { 
-    document.body.innerHTML += "<p>"+ "Sakra zima";
+    document.body.innerHTML += "<p>Sakra zima :(</p>";
   }
   
