@@ -12,7 +12,7 @@ section {
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
-    margin: 20px 300px 20px 200;
+    margin-left: 40%;
     padding: 20px;
     border: 2px solid #2e869c ;  
     border-radius: 20px;
@@ -26,6 +26,7 @@ p {
     font-size: 20px;
     font-weight: normal;
     text-align: left;
+    margin-left: 40%;
     padding: 0 70px;
 }
 
@@ -34,5 +35,6 @@ p {
     border: 2px solid #756158;
     border-radius: 50%;
     float: left;
-    margin: 32px;
+    margin: 30px;
+    margin-left: 42%;
 }
