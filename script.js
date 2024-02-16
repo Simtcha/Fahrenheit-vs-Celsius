@@ -4,12 +4,15 @@ Pokud si ovšem neuvědomíte, že Američané používají pro měření teplot
 Nastudujte si na České Wikipedii jak se převádějí stupně Fahrenheita na stupně Celsia a vytvořte webovou stránku, která takový převod provede. 
 Vaše stránka se zeptá uživatele teplotu ve stupních Fahrenheita a pomocí document.body.innerHTML vypíše její ekvivalent ve stupních Celsia. */
 
+/*
 function round(value, decimals) {
     return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
-}
+} */
 
-const stupneF = Number(prompt("Zadej Fahrenheit stupně: "))
-stupneCelsia = round(((5 * (stupneF- 32))/9),1)
+let stupneF = Number(prompt("Zadej Fahrenheit stupně: "))
+//stupneCelsia = round(((5 * (stupneF- 32))/9),1)
+stupneCelsia = (5 * (stupneF- 32))/9
+stupneCelsia = stupneCelsia.toFixed(1)
 
 document.body.innerHTML += "<section>" + stupneF + " °F je přesně " + stupneCelsia + " °C " + "</section>"
 
